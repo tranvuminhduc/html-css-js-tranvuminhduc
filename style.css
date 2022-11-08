@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+.box1
+{
+    width: 400px;
+    height: 200px;
+    background-color: rgb(91, 67, 163);
+    border: 20px solid rgb(0, 128, 111);
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.box2
+{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 179, 0);
+    border:10px goldenrod green;
+    padding: 20px;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px;
+    top: -60px;
+    left: 150px;
+    z-index: 2;
+}
+.box3 {
+    position: relative;
+    margin: 40px;
+    top: -60px;
+    left: -60px;
+    z-index: 2;
+}
+
+body {
+    background-color:rgb(169, 223, 200) 
+}
+.name {
+    color: red;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    position: relative;
+    top: -10px;
+    left: 65px;
+    z-index: 2;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.name2 {
+    color: darkcyan;
+}
+.name3 {
+    color: crimson;
+    font-weight: bolder;
+}
+.gioithieu {
+    color: blueviolet;
+}
+.gioithieu1 {
+    color: brown;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+img {
+    border-radius: 50%;
+}
+.img1 {
+
+}
